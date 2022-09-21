@@ -1,5 +1,5 @@
 # DWES
 
-Javier Aragoneses \n
-javier.aragoneses2@educa.madrid.org \n
+Javier Aragoneses 
+javier.aragoneses2@educa.madrid.org 
 javiaragoneses1@gmail.com
