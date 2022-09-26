@@ -10,6 +10,7 @@
     $numero = "1515";
     $base = "16";
     $str = "";
+
     while ($numero > 0) {
         $mod = $numero % 16;
         $str = $caracteresHexadecimales[$mod].$str;
