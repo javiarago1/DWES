@@ -2,7 +2,6 @@
 
 <HEAD><TITLE> EJ2-Direccion Red – Broadcast y Rango</TITLE></HEAD>
 
-
 <BODY>
     <?php
     $ip = "192.168.16.100/16";
@@ -39,10 +38,6 @@
     echo "<br>";
     echo "Rango: ".$minimo." a ".$maximo;
 
-
-
-
-    
     
     ?>
 </BODY>
