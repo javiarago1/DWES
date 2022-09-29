@@ -59,7 +59,7 @@
     echo "<br>";
     getAverage($array2d);
     echo "<br>";
-    echo "Nota media de Carlos por asignatura";
+    echo "Nota media de Carlos";
     echo "<br> ";
     getAverageOfStudent(array_search("Carlos",$array2d),$array2d);
 
