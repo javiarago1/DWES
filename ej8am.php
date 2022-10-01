@@ -46,11 +46,34 @@
 
 
         function multiplicarMatrices($matriz1,$matriz2){
+
+
+            echo "<table border='1'>";
+            for($i = 0; $i < 3; $i++){
+                echo "<tr>";
+                for($j =0 ; $j < 3; $j++){     
+                    $result=0;
+                    for($k = 0; $k < 3; $k++){
+                        $result += (intval($matriz1[$i][$k]) * intval($matriz2[$k][$j]));
+                    }
+                    echo "<td>". $result."</td>";
+                    echo " ";
+                }
+                    echo "</tr>";
+                    
+            }
+            
+            echo "</table>";
+
             $resultMatriz =[];
             for ($i =0; $i< 3;$i++){
                 $row=[];
                 for ($j=0;$j<3;$j++){
-                    $row[]=$matriz1[$i][$j]*$matriz2[$j][$i];
+                    $result=0;
+                    for($k = 0; $k < 3; $k++){
+                        $result += (intval($matriz1[$i][$k]) * intval($matriz2[$k][$j]));
+                    }
+                    $row[$j]=$result;
                 }
                 $resultMatriz[]=$row;
             }
