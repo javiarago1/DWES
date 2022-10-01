@@ -71,7 +71,7 @@
                 for ($j=0;$j<3;$j++){
                     $result=0;
                     for($k = 0; $k < 3; $k++){
-                        $result += (intval($matriz1[$i][$k]) * intval($matriz2[$k][$j]));
+                        $result += $matriz1[$i][$k] * $matriz2[$k][$j];
                     }
                     $row[$j]=$result;
                 }
